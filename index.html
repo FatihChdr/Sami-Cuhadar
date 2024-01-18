@@ -10,35 +10,39 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Sami Çuhadar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">Ana Sayfa</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">Hakkında</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#publications">Yayınlar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">İletişim</a>
-                </li>
-            </ul>
+    <!-- Navigasyon Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sami Çuhadar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Hakkında</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Yayınlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">İletişim</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
+    <!-- Jumbotron -->
+    <header class="jumbotron jumbotron-fluid bg-light">
+        <div class="container text-center">
             <h1 class="display-4">Hoş Geldiniz Sami Çuhadar'ın Kişisel Bloguna!</h1>
             <p class="lead">İstanbul Bilgi Üniversitesi Kütüphane ve Elektronik Kaynaklar Direktörü olan Sami Çuhadar,
                 aynı zamanda hukuk fakültesinde öğretim görevlisi olarak genç hukukçulara "Araştırma Yöntemleri ve Hukuk
@@ -60,7 +64,7 @@
         <p>Alanımda çeşitli araştırmalar yaparak toplam kalite yönetimi, uzaktan eğitim ve üniversite kütüphaneleri
             üzerine çalışmalar gerçekleştirdim. Ayrıca Anadolu Üniversite Kütüphaneleri Konsorsiyumu (ANKOS) eski
             başkanı ve yönetim kurulu üyesi, UNAK-Türk Hukuk Kütüphanecileri Platformu koordinatörü olarak da görev
-            aldım. <a href="https://scholar.google.com/citations?user=xxxxx" target="_blank">Google Scholar Profilim</a>
+            aldım. <a href="https://scholar.google.com/citations?user=jep_K8MAAAAJ&hl=en" target="_blank">Google Scholar Profilim</a>
         </p>
     </section>
 
@@ -73,7 +77,20 @@
         </div>
     </section>
 
-    
+    <section id="events" class="container mt-5">
+        <h2>Etkinlik Takvimi</h2>
+        <div class="events-calendar">
+            <ul>
+                <li><strong>15 Mart 2024:</strong> Bilgi ve Belge Yönetimi Konferansı, İstanbul</li>
+                <li><strong>10 Nisan 2024:</strong> Akademik Kütüphanecilik Semineri, Ankara</li>
+                <li><strong>5 Mayıs 2024:</strong> Uluslararası Eğitim Teknolojileri Sempozyumu, İzmir</li>
+                <!-- Daha fazla etkinlik eklenebilir -->
+            </ul>
+        </div>
+    </section>
+
+
+
 
     <section id="gallery" class="container mt-5">
         <h2>Galeri</h2>
@@ -141,7 +158,7 @@
     </section>
 
     <footer class="bg-dark text-white text-center py-3">
-        <div class="social-links">
+        <div class="container">
             <a href="https://twitter.com/samicuhadar" target="_blank">Twitter</a> |
             <a href="https://linkedin.com/in/samicuhadar" target="_blank">LinkedIn</a>
         </div>
